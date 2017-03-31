@@ -1,8 +1,8 @@
-package name.lorenzani.andrea.SimpleOpenGL.frames
+package name.lorenzani.andrea.SimpleOpenGL.frames.framelisteners
 
 import com.jogamp.opengl.{GLAutoDrawable, GLEventListener}
 
-class BasicFrame extends GLEventListener {
+class BasicFrameListener extends GLEventListener {
   override def init(drawable: GLAutoDrawable): Unit = {}
 
   override def display(drawable: GLAutoDrawable): Unit = {}
